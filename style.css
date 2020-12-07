@@ -1,0 +1,126 @@
+body {
+	background-color: #caccc8;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bolder;
+}
+.container {
+	width: 1009px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.player {
+	width: 497px;
+	height: 500px;
+	float: left;
+	background-color: yellow;
+	margin-right: 3px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border: 3px solid black;
+}
+ul li {
+	display: table;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+ul li:nth-child(1) {
+	margin-left: 178px;
+}
+ul li img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: salmon;
+	cursor: pointer;
+}
+ul li img:hover {
+	box-shadow: 0px 5px 10px;
+}
+#pscore {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 3px dashed black;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive;
+}
+.comp {
+	width: 497px;
+	height: 500px;
+	float: right;
+	background-color: #11ff00;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border: 3px solid black;
+}
+.pilkomm {
+	margin-left: 180px;
+	margin-top: 200px;
+	border-radius: 50px;
+}
+.pilkomm img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	background-color: salmon;
+}
+#compscore {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 3px dashed black;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive;
+}
+.hasill {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+.hasill img {
+	width: 200px;
+	height: 300px;
+	border: 3px solid black;
+	border-radius: 30px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+/*ini clear float */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
